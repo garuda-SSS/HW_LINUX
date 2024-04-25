@@ -9,6 +9,7 @@ total_memory = 0
 total_cpu = 0
 max_memory_process = ('', 0)
 max_cpu_process = ('', 0)
+
 for line in lines[1:]:
     if line:
         parts = line.split()
